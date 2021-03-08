@@ -1,7 +1,11 @@
 const router = require("express").Router();
 let Issue = require("../models/issue.model");
 
-// MADE A CHANGE kjjvj
+// <<<<<<< feature/update
+// // MADE A CHANGE ljlkjl
+// =======
+// // MADE A CHANGE kjjvj
+// >>>>>>> main
 
 // listing all issues
 router.route("/").get(function(req, res) {
